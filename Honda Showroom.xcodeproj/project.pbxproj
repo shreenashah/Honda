@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6ABB2B61C636A2700B74638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB2B51C636A2700B74638 /* AppDelegate.swift */; };
+		A6ABB2B81C636A2700B74638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB2B71C636A2700B74638 /* ViewController.swift */; };
+		A6ABB2BB1C636A2800B74638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6ABB2B91C636A2800B74638 /* Main.storyboard */; };
+		A6ABB2BD1C636A2800B74638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6ABB2BC1C636A2800B74638 /* Assets.xcassets */; };
+		A6ABB2C01C636A2800B74638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6ABB2BE1C636A2800B74638 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6ABB2B21C636A2700B74638 /* Honda Showroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Honda Showroom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6ABB2B51C636A2700B74638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6ABB2B71C636A2700B74638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6ABB2BA1C636A2800B74638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6ABB2BC1C636A2800B74638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6ABB2BF1C636A2800B74638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6ABB2C11C636A2800B74638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6ABB2AF1C636A2700B74638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6ABB2A91C636A2700B74638 = {
+			isa = PBXGroup;
+			children = (
+				A6ABB2B41C636A2700B74638 /* Honda Showroom */,
+				A6ABB2B31C636A2700B74638 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6ABB2B31C636A2700B74638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6ABB2B21C636A2700B74638 /* Honda Showroom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6ABB2B41C636A2700B74638 /* Honda Showroom */ = {
+			isa = PBXGroup;
+			children = (
+				A6ABB2B51C636A2700B74638 /* AppDelegate.swift */,
+				A6ABB2B71C636A2700B74638 /* ViewController.swift */,
+				A6ABB2B91C636A2800B74638 /* Main.storyboard */,
+				A6ABB2BC1C636A2800B74638 /* Assets.xcassets */,
+				A6ABB2BE1C636A2800B74638 /* LaunchScreen.storyboard */,
+				A6ABB2C11C636A2800B74638 /* Info.plist */,
+			);
+			path = "Honda Showroom";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6ABB2B11C636A2700B74638 /* Honda Showroom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6ABB2C41C636A2800B74638 /* Build configuration list for PBXNativeTarget "Honda Showroom" */;
+			buildPhases = (
+				A6ABB2AE1C636A2700B74638 /* Sources */,
+				A6ABB2AF1C636A2700B74638 /* Frameworks */,
+				A6ABB2B01C636A2700B74638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Honda Showroom";
+			productName = "Honda Showroom";
+			productReference = A6ABB2B21C636A2700B74638 /* Honda Showroom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6ABB2AA1C636A2700B74638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Studio 966";
+				TargetAttributes = {
+					A6ABB2B11C636A2700B74638 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A6ABB2AD1C636A2700B74638 /* Build configuration list for PBXProject "Honda Showroom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6ABB2A91C636A2700B74638;
+			productRefGroup = A6ABB2B31C636A2700B74638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6ABB2B11C636A2700B74638 /* Honda Showroom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6ABB2B01C636A2700B74638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6ABB2C01C636A2800B74638 /* LaunchScreen.storyboard in Resources */,
+				A6ABB2BD1C636A2800B74638 /* Assets.xcassets in Resources */,
+				A6ABB2BB1C636A2800B74638 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6ABB2AE1C636A2700B74638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6ABB2B81C636A2700B74638 /* ViewController.swift in Sources */,
+				A6ABB2B61C636A2700B74638 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6ABB2B91C636A2800B74638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6ABB2BA1C636A2800B74638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6ABB2BE1C636A2800B74638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6ABB2BF1C636A2800B74638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6ABB2C21C636A2800B74638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A6ABB2C31C636A2800B74638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6ABB2C51C636A2800B74638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Honda Showroom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sa.studio966.Honda-Showroom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6ABB2C61C636A2800B74638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Honda Showroom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sa.studio966.Honda-Showroom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6ABB2AD1C636A2700B74638 /* Build configuration list for PBXProject "Honda Showroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6ABB2C21C636A2800B74638 /* Debug */,
+				A6ABB2C31C636A2800B74638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6ABB2C41C636A2800B74638 /* Build configuration list for PBXNativeTarget "Honda Showroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6ABB2C51C636A2800B74638 /* Debug */,
+				A6ABB2C61C636A2800B74638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6ABB2AA1C636A2700B74638 /* Project object */;
+}
