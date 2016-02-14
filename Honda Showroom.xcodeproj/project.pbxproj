@@ -7,21 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657E53411C7093BA005AD109 /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E53401C7093BA005AD109 /* GalleryCollectionViewController.swift */; };
+		657E53431C7093CE005AD109 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E53421C7093CE005AD109 /* ImageCollectionViewCell.swift */; };
+		657E53981C70A5F2005AD109 /* pdf-sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 657E53971C70A5F2005AD109 /* pdf-sample.pdf */; };
+		657E53B01C710ED2005AD109 /* crv-01-000000.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E539B1C710ED2005AD109 /* crv-01-000000.png */; };
+		657E53B11C710ED2005AD109 /* crv-01-2B2B2B.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E539C1C710ED2005AD109 /* crv-01-2B2B2B.png */; };
+		657E53B21C710ED2005AD109 /* crv-01-4F4642.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E539D1C710ED2005AD109 /* crv-01-4F4642.png */; };
+		657E53B31C710ED2005AD109 /* crv-01-6C87A4.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E539E1C710ED2005AD109 /* crv-01-6C87A4.png */; };
+		657E53B41C710ED2005AD109 /* crv-01-440A07.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E539F1C710ED2005AD109 /* crv-01-440A07.png */; };
+		657E53B51C710ED2005AD109 /* crv-01-742511.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E53A01C710ED2005AD109 /* crv-01-742511.png */; };
+		657E53B61C710ED2005AD109 /* crv-01-767676.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E53A11C710ED2005AD109 /* crv-01-767676.png */; };
+		657E53B71C710ED2005AD109 /* crv-01-FBFBFB.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E53A21C710ED2005AD109 /* crv-01-FBFBFB.png */; };
+		657E53B81C710ED2005AD109 /* crv-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53A31C710ED2005AD109 /* crv-02.jpg */; };
+		657E53B91C710ED2005AD109 /* crv-03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53A41C710ED2005AD109 /* crv-03.jpg */; };
+		657E53BA1C710ED2005AD109 /* crv-04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53A51C710ED2005AD109 /* crv-04.jpg */; };
+		657E53BB1C710ED2005AD109 /* crv-05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53A61C710ED2005AD109 /* crv-05.jpg */; };
+		657E53BC1C710ED2005AD109 /* crv-06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53A71C710ED2005AD109 /* crv-06.jpg */; };
+		657E53BD1C710ED2005AD109 /* crv-07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53A81C710ED2005AD109 /* crv-07.jpg */; };
+		657E53BE1C710ED2005AD109 /* crv-09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53A91C710ED2005AD109 /* crv-09.jpg */; };
+		657E53BF1C710ED2005AD109 /* crv-10-.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53AA1C710ED2005AD109 /* crv-10-.jpg */; };
+		657E53C01C710ED2005AD109 /* crv-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53AB1C710ED2005AD109 /* crv-11.jpg */; };
+		657E53C11C710ED2005AD109 /* crv-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53AC1C710ED2005AD109 /* crv-12.jpg */; };
+		657E53C21C710ED2005AD109 /* crv-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53AD1C710ED2005AD109 /* crv-13.jpg */; };
+		657E53C31C710ED2005AD109 /* crv-14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53AE1C710ED2005AD109 /* crv-14.jpg */; };
+		657E53C41C710ED2005AD109 /* crv-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53AF1C710ED2005AD109 /* crv-15.jpg */; };
+		657E53DB1C710EE2005AD109 /* pilot-01-0A103E.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E53C51C710EE2005AD109 /* pilot-01-0A103E.png */; };
+		657E53DC1C710EE2005AD109 /* pilot-01-2B2B2B.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E53C61C710EE2005AD109 /* pilot-01-2B2B2B.png */; };
+		657E53DD1C710EE2005AD109 /* pilot-01-2B3D2B.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E53C71C710EE2005AD109 /* pilot-01-2B3D2B.png */; };
+		657E53DE1C710EE2005AD109 /* pilot-01-3A191C.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E53C81C710EE2005AD109 /* pilot-01-3A191C.png */; };
+		657E53DF1C710EE2005AD109 /* pilot-01-4E4E4E.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E53C91C710EE2005AD109 /* pilot-01-4E4E4E.png */; };
+		657E53E01C710EE2005AD109 /* pilot-01-6C87A4.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E53CA1C710EE2005AD109 /* pilot-01-6C87A4.png */; };
+		657E53E11C710EE2005AD109 /* pilot-01-767676.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E53CB1C710EE2005AD109 /* pilot-01-767676.png */; };
+		657E53E21C710EE2005AD109 /* pilot-01-FBFBFB.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E53CC1C710EE2005AD109 /* pilot-01-FBFBFB.png */; };
+		657E53E31C710EE2005AD109 /* pilot-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53CD1C710EE2005AD109 /* pilot-02.jpg */; };
+		657E53E41C710EE2005AD109 /* pilot-03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53CE1C710EE2005AD109 /* pilot-03.jpg */; };
+		657E53E51C710EE2005AD109 /* pilot-04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53CF1C710EE2005AD109 /* pilot-04.jpg */; };
+		657E53E61C710EE2005AD109 /* pilot-05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53D01C710EE2005AD109 /* pilot-05.jpg */; };
+		657E53E71C710EE2005AD109 /* pilot-06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53D11C710EE2005AD109 /* pilot-06.jpg */; };
+		657E53E81C710EE2005AD109 /* pilot-07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53D21C710EE2005AD109 /* pilot-07.jpg */; };
+		657E53E91C710EE2005AD109 /* pilot-08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53D31C710EE2005AD109 /* pilot-08.jpg */; };
+		657E53EA1C710EE2005AD109 /* pilot-09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53D41C710EE2005AD109 /* pilot-09.jpg */; };
+		657E53EB1C710EE2005AD109 /* pilot-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53D51C710EE2005AD109 /* pilot-10.jpg */; };
+		657E53EC1C710EE2005AD109 /* pilot-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53D61C710EE2005AD109 /* pilot-11.jpg */; };
+		657E53ED1C710EE2005AD109 /* pilot-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53D71C710EE2005AD109 /* pilot-12.jpg */; };
+		657E53EE1C710EE2005AD109 /* pilot-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53D81C710EE2005AD109 /* pilot-13.jpg */; };
+		657E53EF1C710EE2005AD109 /* pilot-14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53D91C710EE2005AD109 /* pilot-14.jpg */; };
+		657E53F01C710EE2005AD109 /* pilot-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53DA1C710EE2005AD109 /* pilot-15.jpg */; };
+		657E53F21C71129D005AD109 /* honda-CR-V LX-2WD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 657E53F11C71129D005AD109 /* honda-CR-V LX-2WD.pdf */; };
 		A6ABB2B61C636A2700B74638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB2B51C636A2700B74638 /* AppDelegate.swift */; };
 		A6ABB2B81C636A2700B74638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB2B71C636A2700B74638 /* ViewController.swift */; };
 		A6ABB2BB1C636A2800B74638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6ABB2B91C636A2800B74638 /* Main.storyboard */; };
-		A6ABB2BD1C636A2800B74638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6ABB2BC1C636A2800B74638 /* Assets.xcassets */; };
 		A6ABB2C01C636A2800B74638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6ABB2BE1C636A2800B74638 /* LaunchScreen.storyboard */; };
+		A6ABB2C81C636C9300B74638 /* HondaModelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB2C71C636C9300B74638 /* HondaModelTableViewController.swift */; };
+		A6ABB2CC1C636D8C00B74638 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB2CB1C636D8C00B74638 /* Model.swift */; };
+		A6ABB2CE1C63730D00B74638 /* ModelLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB2CD1C63730D00B74638 /* ModelLine.swift */; };
+		A6ABB2D71C63A46200B74638 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6ABB2D61C63A46200B74638 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		657E53401C7093BA005AD109 /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		657E53421C7093CE005AD109 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		657E53971C70A5F2005AD109 /* pdf-sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "pdf-sample.pdf"; sourceTree = "<group>"; };
+		657E539B1C710ED2005AD109 /* crv-01-000000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crv-01-000000.png"; sourceTree = "<group>"; };
+		657E539C1C710ED2005AD109 /* crv-01-2B2B2B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crv-01-2B2B2B.png"; sourceTree = "<group>"; };
+		657E539D1C710ED2005AD109 /* crv-01-4F4642.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crv-01-4F4642.png"; sourceTree = "<group>"; };
+		657E539E1C710ED2005AD109 /* crv-01-6C87A4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crv-01-6C87A4.png"; sourceTree = "<group>"; };
+		657E539F1C710ED2005AD109 /* crv-01-440A07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crv-01-440A07.png"; sourceTree = "<group>"; };
+		657E53A01C710ED2005AD109 /* crv-01-742511.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crv-01-742511.png"; sourceTree = "<group>"; };
+		657E53A11C710ED2005AD109 /* crv-01-767676.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crv-01-767676.png"; sourceTree = "<group>"; };
+		657E53A21C710ED2005AD109 /* crv-01-FBFBFB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crv-01-FBFBFB.png"; sourceTree = "<group>"; };
+		657E53A31C710ED2005AD109 /* crv-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-02.jpg"; sourceTree = "<group>"; };
+		657E53A41C710ED2005AD109 /* crv-03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-03.jpg"; sourceTree = "<group>"; };
+		657E53A51C710ED2005AD109 /* crv-04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-04.jpg"; sourceTree = "<group>"; };
+		657E53A61C710ED2005AD109 /* crv-05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-05.jpg"; sourceTree = "<group>"; };
+		657E53A71C710ED2005AD109 /* crv-06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-06.jpg"; sourceTree = "<group>"; };
+		657E53A81C710ED2005AD109 /* crv-07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-07.jpg"; sourceTree = "<group>"; };
+		657E53A91C710ED2005AD109 /* crv-09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-09.jpg"; sourceTree = "<group>"; };
+		657E53AA1C710ED2005AD109 /* crv-10-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-10-.jpg"; sourceTree = "<group>"; };
+		657E53AB1C710ED2005AD109 /* crv-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-11.jpg"; sourceTree = "<group>"; };
+		657E53AC1C710ED2005AD109 /* crv-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-12.jpg"; sourceTree = "<group>"; };
+		657E53AD1C710ED2005AD109 /* crv-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-13.jpg"; sourceTree = "<group>"; };
+		657E53AE1C710ED2005AD109 /* crv-14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-14.jpg"; sourceTree = "<group>"; };
+		657E53AF1C710ED2005AD109 /* crv-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crv-15.jpg"; sourceTree = "<group>"; };
+		657E53C51C710EE2005AD109 /* pilot-01-0A103E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pilot-01-0A103E.png"; sourceTree = "<group>"; };
+		657E53C61C710EE2005AD109 /* pilot-01-2B2B2B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pilot-01-2B2B2B.png"; sourceTree = "<group>"; };
+		657E53C71C710EE2005AD109 /* pilot-01-2B3D2B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pilot-01-2B3D2B.png"; sourceTree = "<group>"; };
+		657E53C81C710EE2005AD109 /* pilot-01-3A191C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pilot-01-3A191C.png"; sourceTree = "<group>"; };
+		657E53C91C710EE2005AD109 /* pilot-01-4E4E4E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pilot-01-4E4E4E.png"; sourceTree = "<group>"; };
+		657E53CA1C710EE2005AD109 /* pilot-01-6C87A4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pilot-01-6C87A4.png"; sourceTree = "<group>"; };
+		657E53CB1C710EE2005AD109 /* pilot-01-767676.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pilot-01-767676.png"; sourceTree = "<group>"; };
+		657E53CC1C710EE2005AD109 /* pilot-01-FBFBFB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pilot-01-FBFBFB.png"; sourceTree = "<group>"; };
+		657E53CD1C710EE2005AD109 /* pilot-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-02.jpg"; sourceTree = "<group>"; };
+		657E53CE1C710EE2005AD109 /* pilot-03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-03.jpg"; sourceTree = "<group>"; };
+		657E53CF1C710EE2005AD109 /* pilot-04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-04.jpg"; sourceTree = "<group>"; };
+		657E53D01C710EE2005AD109 /* pilot-05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-05.jpg"; sourceTree = "<group>"; };
+		657E53D11C710EE2005AD109 /* pilot-06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-06.jpg"; sourceTree = "<group>"; };
+		657E53D21C710EE2005AD109 /* pilot-07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-07.jpg"; sourceTree = "<group>"; };
+		657E53D31C710EE2005AD109 /* pilot-08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-08.jpg"; sourceTree = "<group>"; };
+		657E53D41C710EE2005AD109 /* pilot-09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-09.jpg"; sourceTree = "<group>"; };
+		657E53D51C710EE2005AD109 /* pilot-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-10.jpg"; sourceTree = "<group>"; };
+		657E53D61C710EE2005AD109 /* pilot-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-11.jpg"; sourceTree = "<group>"; };
+		657E53D71C710EE2005AD109 /* pilot-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-12.jpg"; sourceTree = "<group>"; };
+		657E53D81C710EE2005AD109 /* pilot-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-13.jpg"; sourceTree = "<group>"; };
+		657E53D91C710EE2005AD109 /* pilot-14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-14.jpg"; sourceTree = "<group>"; };
+		657E53DA1C710EE2005AD109 /* pilot-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-15.jpg"; sourceTree = "<group>"; };
+		657E53F11C71129D005AD109 /* honda-CR-V LX-2WD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "honda-CR-V LX-2WD.pdf"; sourceTree = "<group>"; };
 		A6ABB2B21C636A2700B74638 /* Honda Showroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Honda Showroom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6ABB2B51C636A2700B74638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6ABB2B71C636A2700B74638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6ABB2B51C636A2700B74638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Honda Showroom/AppDelegate.swift"; sourceTree = "<group>"; };
+		A6ABB2B71C636A2700B74638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Honda Showroom/ViewController.swift"; sourceTree = "<group>"; };
 		A6ABB2BA1C636A2800B74638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6ABB2BC1C636A2800B74638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6ABB2BF1C636A2800B74638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A6ABB2C11C636A2800B74638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6ABB2C11C636A2800B74638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Honda Showroom/Info.plist"; sourceTree = "<group>"; };
+		A6ABB2C71C636C9300B74638 /* HondaModelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HondaModelTableViewController.swift; sourceTree = "<group>"; };
+		A6ABB2CB1C636D8C00B74638 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A6ABB2CD1C63730D00B74638 /* ModelLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelLine.swift; sourceTree = "<group>"; };
+		A6ABB2D61C63A46200B74638 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,11 +135,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		657E53441C70945C005AD109 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				657E539A1C710EB6005AD109 /* honda-pilot */,
+				657E53991C710EAE005AD109 /* honda-crv */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		657E53991C710EAE005AD109 /* honda-crv */ = {
+			isa = PBXGroup;
+			children = (
+				657E539B1C710ED2005AD109 /* crv-01-000000.png */,
+				657E539C1C710ED2005AD109 /* crv-01-2B2B2B.png */,
+				657E539D1C710ED2005AD109 /* crv-01-4F4642.png */,
+				657E539E1C710ED2005AD109 /* crv-01-6C87A4.png */,
+				657E539F1C710ED2005AD109 /* crv-01-440A07.png */,
+				657E53A01C710ED2005AD109 /* crv-01-742511.png */,
+				657E53A11C710ED2005AD109 /* crv-01-767676.png */,
+				657E53A21C710ED2005AD109 /* crv-01-FBFBFB.png */,
+				657E53A31C710ED2005AD109 /* crv-02.jpg */,
+				657E53A41C710ED2005AD109 /* crv-03.jpg */,
+				657E53A51C710ED2005AD109 /* crv-04.jpg */,
+				657E53A61C710ED2005AD109 /* crv-05.jpg */,
+				657E53A71C710ED2005AD109 /* crv-06.jpg */,
+				657E53A81C710ED2005AD109 /* crv-07.jpg */,
+				657E53A91C710ED2005AD109 /* crv-09.jpg */,
+				657E53AA1C710ED2005AD109 /* crv-10-.jpg */,
+				657E53AB1C710ED2005AD109 /* crv-11.jpg */,
+				657E53AC1C710ED2005AD109 /* crv-12.jpg */,
+				657E53AD1C710ED2005AD109 /* crv-13.jpg */,
+				657E53AE1C710ED2005AD109 /* crv-14.jpg */,
+				657E53AF1C710ED2005AD109 /* crv-15.jpg */,
+			);
+			name = "honda-crv";
+			sourceTree = "<group>";
+		};
+		657E539A1C710EB6005AD109 /* honda-pilot */ = {
+			isa = PBXGroup;
+			children = (
+				657E53C51C710EE2005AD109 /* pilot-01-0A103E.png */,
+				657E53C61C710EE2005AD109 /* pilot-01-2B2B2B.png */,
+				657E53C71C710EE2005AD109 /* pilot-01-2B3D2B.png */,
+				657E53C81C710EE2005AD109 /* pilot-01-3A191C.png */,
+				657E53C91C710EE2005AD109 /* pilot-01-4E4E4E.png */,
+				657E53CA1C710EE2005AD109 /* pilot-01-6C87A4.png */,
+				657E53CB1C710EE2005AD109 /* pilot-01-767676.png */,
+				657E53CC1C710EE2005AD109 /* pilot-01-FBFBFB.png */,
+				657E53CD1C710EE2005AD109 /* pilot-02.jpg */,
+				657E53CE1C710EE2005AD109 /* pilot-03.jpg */,
+				657E53CF1C710EE2005AD109 /* pilot-04.jpg */,
+				657E53D01C710EE2005AD109 /* pilot-05.jpg */,
+				657E53D11C710EE2005AD109 /* pilot-06.jpg */,
+				657E53D21C710EE2005AD109 /* pilot-07.jpg */,
+				657E53D31C710EE2005AD109 /* pilot-08.jpg */,
+				657E53D41C710EE2005AD109 /* pilot-09.jpg */,
+				657E53D51C710EE2005AD109 /* pilot-10.jpg */,
+				657E53D61C710EE2005AD109 /* pilot-11.jpg */,
+				657E53D71C710EE2005AD109 /* pilot-12.jpg */,
+				657E53D81C710EE2005AD109 /* pilot-13.jpg */,
+				657E53D91C710EE2005AD109 /* pilot-14.jpg */,
+				657E53DA1C710EE2005AD109 /* pilot-15.jpg */,
+			);
+			name = "honda-pilot";
+			sourceTree = "<group>";
+		};
 		A6ABB2A91C636A2700B74638 = {
 			isa = PBXGroup;
 			children = (
-				A6ABB2B41C636A2700B74638 /* Honda Showroom */,
+				657E53F11C71129D005AD109 /* honda-CR-V LX-2WD.pdf */,
+				657E53971C70A5F2005AD109 /* pdf-sample.pdf */,
+				657E53441C70945C005AD109 /* Graphics */,
+				A6ABB2D61C63A46200B74638 /* Images.xcassets */,
+				A6ABB2B51C636A2700B74638 /* AppDelegate.swift */,
+				A6ABB2D01C637AFB00B74638 /* Controller */,
+				A6ABB2CF1C637AF500B74638 /* Views */,
+				A6ABB2CA1C636D2400B74638 /* Model */,
 				A6ABB2B31C636A2700B74638 /* Products */,
+				A6ABB2C11C636A2800B74638 /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,17 +225,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6ABB2B41C636A2700B74638 /* Honda Showroom */ = {
+		A6ABB2CA1C636D2400B74638 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A6ABB2B51C636A2700B74638 /* AppDelegate.swift */,
-				A6ABB2B71C636A2700B74638 /* ViewController.swift */,
-				A6ABB2B91C636A2800B74638 /* Main.storyboard */,
-				A6ABB2BC1C636A2800B74638 /* Assets.xcassets */,
-				A6ABB2BE1C636A2800B74638 /* LaunchScreen.storyboard */,
-				A6ABB2C11C636A2800B74638 /* Info.plist */,
+				A6ABB2CB1C636D8C00B74638 /* Model.swift */,
+				A6ABB2CD1C63730D00B74638 /* ModelLine.swift */,
 			);
-			path = "Honda Showroom";
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A6ABB2CF1C637AF500B74638 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6ABB2B91C636A2800B74638 /* Main.storyboard */,
+				A6ABB2BE1C636A2800B74638 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A6ABB2D01C637AFB00B74638 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6ABB2C71C636C9300B74638 /* HondaModelTableViewController.swift */,
+				A6ABB2B71C636A2700B74638 /* ViewController.swift */,
+				657E53401C7093BA005AD109 /* GalleryCollectionViewController.swift */,
+				657E53421C7093CE005AD109 /* ImageCollectionViewCell.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +312,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				657E53C41C710ED2005AD109 /* crv-15.jpg in Resources */,
+				657E53BA1C710ED2005AD109 /* crv-04.jpg in Resources */,
+				657E53B21C710ED2005AD109 /* crv-01-4F4642.png in Resources */,
+				657E53DE1C710EE2005AD109 /* pilot-01-3A191C.png in Resources */,
+				A6ABB2D71C63A46200B74638 /* Images.xcassets in Resources */,
+				657E53B81C710ED2005AD109 /* crv-02.jpg in Resources */,
+				657E53F01C710EE2005AD109 /* pilot-15.jpg in Resources */,
+				657E53C21C710ED2005AD109 /* crv-13.jpg in Resources */,
+				657E53E01C710EE2005AD109 /* pilot-01-6C87A4.png in Resources */,
+				657E53B71C710ED2005AD109 /* crv-01-FBFBFB.png in Resources */,
+				657E53B51C710ED2005AD109 /* crv-01-742511.png in Resources */,
+				657E53BB1C710ED2005AD109 /* crv-05.jpg in Resources */,
 				A6ABB2C01C636A2800B74638 /* LaunchScreen.storyboard in Resources */,
-				A6ABB2BD1C636A2800B74638 /* Assets.xcassets in Resources */,
+				657E53B41C710ED2005AD109 /* crv-01-440A07.png in Resources */,
+				657E53DF1C710EE2005AD109 /* pilot-01-4E4E4E.png in Resources */,
+				657E53E41C710EE2005AD109 /* pilot-03.jpg in Resources */,
+				657E53B01C710ED2005AD109 /* crv-01-000000.png in Resources */,
 				A6ABB2BB1C636A2800B74638 /* Main.storyboard in Resources */,
+				657E53E11C710EE2005AD109 /* pilot-01-767676.png in Resources */,
+				657E53BC1C710ED2005AD109 /* crv-06.jpg in Resources */,
+				657E53ED1C710EE2005AD109 /* pilot-12.jpg in Resources */,
+				657E53BD1C710ED2005AD109 /* crv-07.jpg in Resources */,
+				657E53E51C710EE2005AD109 /* pilot-04.jpg in Resources */,
+				657E53B11C710ED2005AD109 /* crv-01-2B2B2B.png in Resources */,
+				657E53DD1C710EE2005AD109 /* pilot-01-2B3D2B.png in Resources */,
+				657E53981C70A5F2005AD109 /* pdf-sample.pdf in Resources */,
+				657E53E91C710EE2005AD109 /* pilot-08.jpg in Resources */,
+				657E53EC1C710EE2005AD109 /* pilot-11.jpg in Resources */,
+				657E53BE1C710ED2005AD109 /* crv-09.jpg in Resources */,
+				657E53C01C710ED2005AD109 /* crv-11.jpg in Resources */,
+				657E53EE1C710EE2005AD109 /* pilot-13.jpg in Resources */,
+				657E53DB1C710EE2005AD109 /* pilot-01-0A103E.png in Resources */,
+				657E53BF1C710ED2005AD109 /* crv-10-.jpg in Resources */,
+				657E53E21C710EE2005AD109 /* pilot-01-FBFBFB.png in Resources */,
+				657E53E81C710EE2005AD109 /* pilot-07.jpg in Resources */,
+				657E53C11C710ED2005AD109 /* crv-12.jpg in Resources */,
+				657E53E71C710EE2005AD109 /* pilot-06.jpg in Resources */,
+				657E53DC1C710EE2005AD109 /* pilot-01-2B2B2B.png in Resources */,
+				657E53B31C710ED2005AD109 /* crv-01-6C87A4.png in Resources */,
+				657E53E31C710EE2005AD109 /* pilot-02.jpg in Resources */,
+				657E53B91C710ED2005AD109 /* crv-03.jpg in Resources */,
+				657E53EA1C710EE2005AD109 /* pilot-09.jpg in Resources */,
+				657E53F21C71129D005AD109 /* honda-CR-V LX-2WD.pdf in Resources */,
+				657E53E61C710EE2005AD109 /* pilot-05.jpg in Resources */,
+				657E53C31C710ED2005AD109 /* crv-14.jpg in Resources */,
+				657E53EF1C710EE2005AD109 /* pilot-14.jpg in Resources */,
+				657E53B61C710ED2005AD109 /* crv-01-767676.png in Resources */,
+				657E53EB1C710EE2005AD109 /* pilot-10.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +370,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6ABB2C81C636C9300B74638 /* HondaModelTableViewController.swift in Sources */,
+				657E53411C7093BA005AD109 /* GalleryCollectionViewController.swift in Sources */,
+				A6ABB2CE1C63730D00B74638 /* ModelLine.swift in Sources */,
+				657E53431C7093CE005AD109 /* ImageCollectionViewCell.swift in Sources */,
 				A6ABB2B81C636A2700B74638 /* ViewController.swift in Sources */,
 				A6ABB2B61C636A2700B74638 /* AppDelegate.swift in Sources */,
+				A6ABB2CC1C636D8C00B74638 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +389,7 @@
 				A6ABB2BA1C636A2800B74638 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "Honda Showroom";
 			sourceTree = "<group>";
 		};
 		A6ABB2BE1C636A2800B74638 /* LaunchScreen.storyboard */ = {
@@ -157,6 +398,7 @@
 				A6ABB2BF1C636A2800B74638 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "Honda Showroom";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +528,7 @@
 				A6ABB2C61C636A2800B74638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
