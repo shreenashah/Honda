@@ -62,7 +62,8 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         selectedColorIndex=sender.tag
         
         dispatch_async(dispatch_get_main_queue(),{
-        
+        //self.collectionView.frame=CGRectMake(0, 0, 1024, 377)
+           
         self.ToSetImages()
             self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forRow: 0, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.CenteredHorizontally, animated: true)
         self.collectionView.reloadData()
@@ -73,6 +74,8 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
        
         
     }
+    
+    
     func ToLoadPdf()
     {
         let pdfLoc = NSURL(fileURLWithPath:NSBundle.mainBundle().pathForResource("honda-CR-V LX-2WD", ofType:"pdf")!)

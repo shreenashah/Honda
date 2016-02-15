@@ -53,7 +53,6 @@
 		657E53EF1C710EE2005AD109 /* pilot-14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53D91C710EE2005AD109 /* pilot-14.jpg */; };
 		657E53F01C710EE2005AD109 /* pilot-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657E53DA1C710EE2005AD109 /* pilot-15.jpg */; };
 		657E53F21C71129D005AD109 /* honda-CR-V LX-2WD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 657E53F11C71129D005AD109 /* honda-CR-V LX-2WD.pdf */; };
-		65D0609D1C72597F00EA6D2A /* pdf-sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65D0609C1C72597F00EA6D2A /* pdf-sample.pdf */; };
 		A6ABB2B61C636A2700B74638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB2B51C636A2700B74638 /* AppDelegate.swift */; };
 		A6ABB2B81C636A2700B74638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABB2B71C636A2700B74638 /* ViewController.swift */; };
 		A6ABB2BB1C636A2800B74638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6ABB2B91C636A2800B74638 /* Main.storyboard */; };
@@ -111,7 +110,6 @@
 		657E53D91C710EE2005AD109 /* pilot-14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-14.jpg"; sourceTree = "<group>"; };
 		657E53DA1C710EE2005AD109 /* pilot-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pilot-15.jpg"; sourceTree = "<group>"; };
 		657E53F11C71129D005AD109 /* honda-CR-V LX-2WD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "honda-CR-V LX-2WD.pdf"; sourceTree = "<group>"; };
-		65D0609C1C72597F00EA6D2A /* pdf-sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "pdf-sample.pdf"; sourceTree = "<group>"; };
 		A6ABB2B21C636A2700B74638 /* Honda Showroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Honda Showroom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6ABB2B51C636A2700B74638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Honda Showroom/AppDelegate.swift"; sourceTree = "<group>"; };
 		A6ABB2B71C636A2700B74638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Honda Showroom/ViewController.swift"; sourceTree = "<group>"; };
@@ -205,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				657E53F11C71129D005AD109 /* honda-CR-V LX-2WD.pdf */,
-				65D0609C1C72597F00EA6D2A /* pdf-sample.pdf */,
 				657E53441C70945C005AD109 /* Graphics */,
 				A6ABB2D61C63A46200B74638 /* Images.xcassets */,
 				A6ABB2B51C636A2700B74638 /* AppDelegate.swift */,
@@ -343,7 +340,6 @@
 				657E53C01C710ED2005AD109 /* crv-11.jpg in Resources */,
 				657E53EE1C710EE2005AD109 /* pilot-13.jpg in Resources */,
 				657E53DB1C710EE2005AD109 /* pilot-01-0A103E.png in Resources */,
-				65D0609D1C72597F00EA6D2A /* pdf-sample.pdf in Resources */,
 				657E53BF1C710ED2005AD109 /* crv-10-.jpg in Resources */,
 				657E53E21C710EE2005AD109 /* pilot-01-FBFBFB.png in Resources */,
 				657E53E81C710EE2005AD109 /* pilot-07.jpg in Resources */,
