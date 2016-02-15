@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		657E53411C7093BA005AD109 /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E53401C7093BA005AD109 /* GalleryCollectionViewController.swift */; };
 		657E53431C7093CE005AD109 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E53421C7093CE005AD109 /* ImageCollectionViewCell.swift */; };
-		657E53981C70A5F2005AD109 /* pdf-sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 657E53971C70A5F2005AD109 /* pdf-sample.pdf */; };
 		657E53B01C710ED2005AD109 /* crv-01-000000.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E539B1C710ED2005AD109 /* crv-01-000000.png */; };
 		657E53B11C710ED2005AD109 /* crv-01-2B2B2B.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E539C1C710ED2005AD109 /* crv-01-2B2B2B.png */; };
 		657E53B21C710ED2005AD109 /* crv-01-4F4642.png in Resources */ = {isa = PBXBuildFile; fileRef = 657E539D1C710ED2005AD109 /* crv-01-4F4642.png */; };
@@ -67,7 +66,6 @@
 /* Begin PBXFileReference section */
 		657E53401C7093BA005AD109 /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
 		657E53421C7093CE005AD109 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
-		657E53971C70A5F2005AD109 /* pdf-sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "pdf-sample.pdf"; sourceTree = "<group>"; };
 		657E539B1C710ED2005AD109 /* crv-01-000000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crv-01-000000.png"; sourceTree = "<group>"; };
 		657E539C1C710ED2005AD109 /* crv-01-2B2B2B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crv-01-2B2B2B.png"; sourceTree = "<group>"; };
 		657E539D1C710ED2005AD109 /* crv-01-4F4642.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crv-01-4F4642.png"; sourceTree = "<group>"; };
@@ -205,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				657E53F11C71129D005AD109 /* honda-CR-V LX-2WD.pdf */,
-				657E53971C70A5F2005AD109 /* pdf-sample.pdf */,
 				657E53441C70945C005AD109 /* Graphics */,
 				A6ABB2D61C63A46200B74638 /* Images.xcassets */,
 				A6ABB2B51C636A2700B74638 /* AppDelegate.swift */,
@@ -337,7 +334,6 @@
 				657E53E51C710EE2005AD109 /* pilot-04.jpg in Resources */,
 				657E53B11C710ED2005AD109 /* crv-01-2B2B2B.png in Resources */,
 				657E53DD1C710EE2005AD109 /* pilot-01-2B3D2B.png in Resources */,
-				657E53981C70A5F2005AD109 /* pdf-sample.pdf in Resources */,
 				657E53E91C710EE2005AD109 /* pilot-08.jpg in Resources */,
 				657E53EC1C710EE2005AD109 /* pilot-11.jpg in Resources */,
 				657E53BE1C710ED2005AD109 /* crv-09.jpg in Resources */,

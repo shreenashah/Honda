@@ -13,14 +13,20 @@ private let reuseIdentifier = "cell"
 class GalleryCollectionViewController: UICollectionViewController {
 
     var arr=[]
+    var selectedIndex:Int?
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.collectionView?.reloadData()
+        
+       // self.collectionView?.reloadData()
 
         // Do any additional setup after loading the view.
     }
-
+    override func viewDidAppear(animated: Bool)
+    
+    {
+        self.collectionView!.scrollToItemAtIndexPath(NSIndexPath(forRow: selectedIndex!, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.CenteredHorizontally, animated: false)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

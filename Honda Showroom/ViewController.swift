@@ -64,6 +64,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         dispatch_async(dispatch_get_main_queue(),{
         
         self.ToSetImages()
+            self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forRow: 0, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.CenteredHorizontally, animated: true)
         self.collectionView.reloadData()
         
         self.ToLoadPdf()
@@ -102,11 +103,14 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         if selectedCarIndex==0
         {
             self.pgc.numberOfPages=crvArray.count
+            self.navigationItem.title="Honda CR-V"
         }
         else
         {
             self.pgc.numberOfPages=pilotArray.count
+            self.navigationItem.title="Honda Pilot"
         }
+        
     }
     func ToSetButtonColors()
     {
@@ -271,7 +275,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         {
            gal.arr=pilotArray
         }
-        
+        gal.selectedIndex=indexPath.row
         self.navigationController?.pushViewController(gal, animated: true)
     }
     

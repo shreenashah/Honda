@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
-        <!--Honda CR-V-->
+        <!--View Controller-->
         <scene sceneID="jqC-dV-vlf">
             <objects>
                 <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RMU-0u-paa" customClass="ViewController" customModule="Honda_Showroom" customModuleProvider="target" sceneMemberID="viewController">
@@ -136,7 +136,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Honda CR-V" id="ggX-6m-t9d">
+                    <navigationItem key="navigationItem" id="ggX-6m-t9d">
                         <barButtonItem key="rightBarButtonItem" title="Select a Language" id="5Ao-Co-Qfg">
                             <connections>
                                 <action selector="LanguageAction:" destination="RMU-0u-paa" id="6Ge-Si-RZg"/>
@@ -185,7 +185,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ola-RL-edc">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ola-RL-edc">
                                             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                         </imageView>
                                     </subviews>
