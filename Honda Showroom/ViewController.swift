@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate
+class ViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate,UIWebViewDelegate
 {
     @IBOutlet weak var btnRed: UIButton!
     @IBOutlet weak var btn2: UIButton!
@@ -70,6 +70,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         self.ToLoadPdf()
             
     })
+       
         
     }
     func ToLoadPdf()
@@ -77,7 +78,23 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         let pdfLoc = NSURL(fileURLWithPath:NSBundle.mainBundle().pathForResource("honda-CR-V LX-2WD", ofType:"pdf")!)
         let request = NSURLRequest(URL: pdfLoc);
         self.webView.loadRequest(request);
+        
     }
+    func webViewDidFinishLoad(webView: UIWebView) {
+        var obj:UIView?
+        var obj1:UIView?
+        for obj in self.webView.scrollView.subviews
+        {
+            if NSStringFromClass((obj.dynamicType)) == "UIWebPDFView"
+            {
+                obj.backgroundColor = UIColor.clearColor()
+                obj1 = obj.subviews.first
+                obj1!.layer.shadowOpacity = 0.0
+            }
+        }
+        
+    }
+    
     func ToresetAllButton()
     {
         btn3.layer.borderColor=UIColor.lightGrayColor().CGColor
@@ -112,6 +129,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         }
         
     }
+    
     func ToSetButtonColors()
     {
         if selectedCarIndex==0
@@ -290,6 +308,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         print(page)
         self.pgc.currentPage = page
     }
+    
     
 }
 extension UIColor {
